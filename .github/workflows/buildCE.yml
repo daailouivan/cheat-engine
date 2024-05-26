@@ -419,6 +419,10 @@ jobs:
       - name: Add msbuild to PATH
         if: ${{ success() || failure() }}
         uses: microsoft/setup-msbuild@v2
+      - name: Install v141_xp
+        uses: thepwrtank18/install-vs-components@v1.0.0
+        with:
+          components: Microsoft.VisualStudio.Component.WinXP
       - name: Build 32-Bit Direct x mess
         if: ${{ success() || failure() }}
         run: "msbuild -property:Configuration=Release -property:Platform=Win32"
