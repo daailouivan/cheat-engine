@@ -420,6 +420,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: microsoft/setup-msbuild@v2
       - name: Install v141_xp
+        if: ${{ success() || failure() }}
         uses: thepwrtank18/install-vs-components@v1
         with:
           components: Microsoft.VisualStudio.Component.WinXP,Microsoft.VisualStudio.Component.VC.Tools.ARM,Microsoft.VisualStudio.Component.VC.Tools.ARM64,Microsoft.Net.Component.4.6.2.TargetingPack
