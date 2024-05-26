@@ -420,9 +420,9 @@ jobs:
         if: ${{ success() || failure() }}
         uses: microsoft/setup-msbuild@v2
       - name: Install v141_xp
-        uses: thepwrtank18/install-vs-components@v1.0.0
+        uses: thepwrtank18/install-vs-components@v1
         with:
-          components: Microsoft.VisualStudio.Component.WinXP
+          components: Microsoft.VisualStudio.Component.WinXP,Microsoft.VisualStudio.Component.VC.Tools.ARM,Microsoft.VisualStudio.Component.VC.Tools.ARM64,Microsoft.Net.Component.4.6.2.TargetingPack
       - name: Build 32-Bit Direct x mess
         if: ${{ success() || failure() }}
         run: "msbuild -property:Configuration=Release -property:Platform=Win32"
