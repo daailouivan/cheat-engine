@@ -1,0 +1,464 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0]
+"MSBuildToolsPath"="C:\\Program Files (x86)\\MSBuild\\12.0\\bin\\amd64\\"
+"MSBuildToolsPath32"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\MSBuild\\ToolsVersions\\12.0@MSBuildToolsPath)"
+"MSBuildToolsRoot"="C:\\Program Files (x86)\\MSBuild\\"
+"MSBuildFrameworkToolsPath"="C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+"MSBuildFrameworkToolsPath32"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\MSBuild\\ToolsVersions\\12.0@MSBuildFrameworkToolsPath)"
+"MSBuildFrameworkToolsRoot"="C:\\WINDOWS\\Microsoft.NET\\Framework64\\"
+"MSBuildRuntimeVersion"="4.0.30319"
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath12"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath12)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\10.0]
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\11.0]
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"WindowsSDK80Path"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.0@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\12.0]
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.1A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.1A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"WindowsSDK80Path"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Microsoft SDKs\\Windows\\v8.1@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath12"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath12)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\12.0]
+"DefaultToolsVersion"="2.0"
+"MSBuildOverrideTasksPath"="C:\\Program Files (x86)\\MSBuild\\12.0\\bin\\amd64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSBuild\12.0]
+"DefaultToolsVersion"="2.0"
+"MSBuildOverrideTasksPath"="C:\\Program Files (x86)\\MSBuild\\12.0\\bin\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSBuild\ToolsVersions\12.0]
+"MSBuildToolsPath"="C:\\Program Files (x86)\\MSBuild\\12.0\\bin\\"
+"MSBuildToolsPath32"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MSBuild\\ToolsVersions\\12.0@MSBuildToolsPath)"
+"MSBuildToolsRoot"="C:\\Program Files (x86)\\MSBuild\\"
+"MSBuildFrameworkToolsPath"="C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+"MSBuildFrameworkToolsPath32"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\MSBuild\\ToolsVersions\\12.0@MSBuildFrameworkToolsPath)"
+"MSBuildFrameworkToolsRoot"="C:\\WINDOWS\\Microsoft.NET\\Framework\\"
+"MSBuildRuntimeVersion"="4.0.30319"
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v7.0A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath12"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath12)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSBuild\ToolsVersions\12.0\10.0]
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSBuild\ToolsVersions\12.0\11.0]
+"VCTargetsPath12"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath12)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"WindowsSDK80Path"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.0@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSBuild\ToolsVersions\12.0\12.0]
+"FrameworkSDKRoot"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.1A@InstallationFolder)"
+"SDK35ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.0A\\WinSDK-NetFx35Tools-x86@InstallationFolder)"
+"SDK40ToolsPath"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.1A\\WinSDK-NetFx40Tools-x86@InstallationFolder)"
+"WindowsSDK80Path"="$(Registry:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v8.1@InstallationFolder)"
+"VCTargetsPath"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+"VCTargetsPath10"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath10)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\'))"
+"VCTargetsPath11"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath11)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V110\\'))"
+"VCTargetsPath12"="$([MSBuild]::ValueOrDefault('$(VCTargetsPath12)','$(MSBuildExtensionsPath32)\\Microsoft.Cpp\\v4.0\\V120\\'))"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A]
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1A\\"
+"ProductVersion"="8.1.51636"
+"ProductName"="Microsoft .NET Framework 4.5.1 SDK"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.1A]
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1A\\"
+"ProductVersion"="8.1.51641"
+"ProductName"="Microsoft .NET Framework 4.5.1 SDK"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools]
+"ProductVersion"="8.1.51641"
+"ComponentName"="Microsoft .NET Framework 4.5.1 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1A\\bin\\NETFX 4.5.1 Tools\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x64]
+"ProductVersion"="8.1.51641"
+"ComponentName"="Microsoft .NET Framework 4.5.1 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1A\\bin\\NETFX 4.5.1 Tools\\x64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86]
+"ProductVersion"="8.1.51641"
+"ComponentName"="Microsoft .NET Framework 4.5.1 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1A\\bin\\NETFX 4.5.1 Tools\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.1]
+"InstallationFolder"="C:\\Program Files (x86)\\Windows Kits\\8.1\\"
+"ProductName"="Microsoft Windows SDK for Windows 8.1"
+"ProductVersion"="6.3..9600"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Windows SDK Multi-targeting Utilities for .NET Framework 3.5"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\Bin\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x64]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Windows SDK Multi-targeting Utilities for .NET Framework 3.5 (x64)"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\Bin\\x64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Windows SDK Multi-targeting Utilities for .NET Framework 3.5"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\Bin\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A]
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\"
+"ProductVersion"="8.0.50709"
+"ServicingVersion"="8.0.50710"
+"ProductName"="Microsoft .NET Framework 4.5 SDK"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Microsoft Visual Studio 2012 Multi-targeting Utilities for .NET Framework 3.5"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x64]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Microsoft Visual Studio 2012 Multi-targeting Utilities for .NET Framework 3.5 (x64)"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\x64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86]
+"ProductVersion"="8.0.50727"
+"ComponentName"="Microsoft Visual Studio 2012 Multi-targeting Utilities for .NET Framework 3.5"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools]
+"ProductVersion"="8.0.50709"
+"ComponentName"="Microsoft .NET Framework 4.5 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x64]
+"ProductVersion"="8.0.50709"
+"ComponentName"="Microsoft .NET Framework 4.5 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\x64\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86]
+"ProductVersion"="8.0.50709"
+"ComponentName"="Microsoft .NET Framework 4.5 SDK"
+"InstallationFolder"="C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs]
+"c:\\Windows\\system32\\msvcr100.dll"=dword:00000004
+"c:\\Windows\\system32\\msvcp100.dll"=dword:00000004
+"C:\\WINDOWS\\system32\\msvcr120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\msvcp120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vccorlib120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vcamp120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vcomp120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120u.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfcm120.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfcm120u.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120cht.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120chs.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120enu.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120deu.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120esn.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120fra.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120ita.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120jpn.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120kor.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120rus.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\msvcr120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\msvcp120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vccorlib120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfc120ud.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfcm120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\mfcm120ud.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vcamp120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vcomp120d.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\dxcpl.exe"=dword:00000001
+"C:\\WINDOWS\\system32\\dxtoolsmonitor.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\dxcapturereplay.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\dxgidebug.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\vsd3dwarpdebug.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\perf_gputiming.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d10ref.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d10sdklayers.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3dref9.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d11ref.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d11_2sdklayers.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d11_1sdklayers.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d3d11sdklayers.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\VSD3DRefDebug.dll"=dword:00000001
+"C:\\WINDOWS\\system32\\d2d1debug2.dll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"VS120COMNTOOLS"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\SxS\VC7]
+"FrameworkDir32"="C:\\WINDOWS\\Microsoft.NET\\Framework\\"
+"FrameworkDir64"="C:\\WINDOWS\\Microsoft.NET\\Framework64"
+"12.0"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\"
+"FrameworkVer32"="v4.0.30319"
+"FrameworkVer64"="v4.0.30319"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\SxS\VS7]
+@="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\"
+"12.0"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0]
+"Source Directories"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\crt\\src\\;C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\crt\\src\\vccorlib\\;C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\atlmfc\\src\\mfc\\;C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\atlmfc\\src\\atl\\;C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\atlmfc\\include"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{20cea761-83c2-44f4-a6f7-5cc4577198ca}]
+@="Generic StackWalker"
+"InprocServer32"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Packages\\Debugger\\msdia120.dll"
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{3bfcea48-620f-4b6b-81f7-b9af75454c7d}]
+@="Debug Information Accessor"
+"InprocServer32"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Packages\\Debugger\\msdia120.dll"
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{5F535F97-A4B2-4A1A-B54A-1E05CFD14A80}]
+"InprocServer32"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\bin\\\\vcmeta.dll"
+@="VCMetaDataReader Class"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{83ab22c8-993a-4d14-a0e0-37bc0aaea793}]
+@="Debug Information Accessor w/o Global Memory Usage"
+"InprocServer32"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Packages\\Debugger\\msdia120.dll"
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{B16E301A-6259-11d3-9B49-00C04F685DC8}]
+"InprocServer32"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\vcpackages\\msgblder.dll"
+@="VC++ Message Builder Class"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\CLSID\{bb64816d-b2f7-45c0-93b6-1d98cac39a3d}]
+@="Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.VCProjectEngineShim"
+"InprocServer32"="C:\\Windows\\SysWOW64\\mscoree.dll"
+"ThreadingModel"="Apartment"
+"Class"="Microsoft.VisualStudio.Project.VisualC.VCProjectEngine.VCProjectEngineShim"
+"Assembly"="Microsoft.VisualStudio.Project.VisualC.VCProjectEngine, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Debugger]
+"FEQARuntimeImplDll"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Packages\\Debugger\\x86\\Microsoft.VisualStudio.Debugger.Runtime.Impl.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Packages\{B7C8A95B-B8E4-4adb-9560-0F487D1429FB}]
+@="Microsoft.VisualStudio.Modeling.Integration.Shell.ModelBusPackage, Microsoft.VisualStudio.Modeling.SDK.Integration.Shell.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"Class"="Microsoft.VisualStudio.Modeling.Integration.Shell.ModelBusPackage"
+"Assembly"="Microsoft.VisualStudio.Modeling.SDK.Integration.Shell.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"InprocServer32"="C:\\Windows\\SysWOW64\\mscoree.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Registration\06153]
+"EditionID"=dword:00000008
+"ProductID"="06153-004-0428007-02504"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Registration\06154]
+"EditionID"=dword:00000008
+"ProductID"="06154-004-0430007-02511"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Registration\06157]
+"EditionID"=dword:00000004
+"ProductID"="06157-004-0441005-02820"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ServiceOverrides\{3EE91C82-6BB6-4E88-A723-839A8F542CB7}]
+@="{00a9524f-427f-46ee-8a20-615c25ecbe6f}"
+"Name"="DBNotifyDebugEvents"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Services]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Services\{099A2AA5-CE07-4FE4-85E8-AD53D8D5D56C}]
+@="{B7C8A95B-B8E4-4adb-9560-0F487D1429FB}"
+"Name"="ReferencePicker"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Services\{8901DD4E-64BA-431f-8040-0BC75EE1ADAD}]
+@="{B7C8A95B-B8E4-4adb-9560-0F487D1429FB}"
+"Name"="ModelBus"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup]
+"Dbghelp_path"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\"
+"FirstLanguagePackLCID"="1033"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Build Tools - x86]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{FB3A15FD-FC67-3A2F-892B-6890B0C56EA9}v12.0.21005\\packages\\BuildTools_MSBuild_x86\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Build Tools Language Resources - x86]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{9347889B-C22A-3905-901F-C05D8F73C929}v12.0.21005\\packages\\BuildTools_MSBuildResMsi_x86\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Finalizers]
+"{9E7DE17D-A9E2-4762-8C10-1E80F5976F4A}"="6C65247B-900C-45AD-8ED8-3F20E668348E"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Microsoft Visual Studio Express 2013 for Windows Desktop]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{64484316-E4BA-38B3-8954-0358522A8D40}v12.0.21005\\packages\\wdexpress\\core\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Microsoft Visual Studio Express 2013 for Windows Desktop - ENU]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{1F1AA110-D758-30C1-A1B4-5484C72BCACE}v12.0.21005\\packages\\wdexpress\\resource\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Microsoft Visual Studio Ultimate 2013 XAML UI Designer Core]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{C5A17590-8CBE-3581-965D-EF183BE07920}v12.0.21005\\packages\\Bliss_Core\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\Microsoft Visual Studio Ultimate 2013 XAML UI Designer enu Resources]
+"InstallSuccess"=dword:00000001
+"SrcPath"="C:\\ProgramData\\Package Cache\\{EB514FFD-5FBA-3C53-94F8-3A2B96C5E7A8}v12.0.21005\\packages\\Bliss_LP\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\VC]
+"ProductDir"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\Setup\VS]
+"ProductDir"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.accessor]
+@="VisualStudio.accessor.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.coverage]
+@="VisualStudio.coverage.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.coveragexml]
+@="VisualStudio.coveragexml.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.orderedtest]
+@="VisualStudio.orderedtest.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.testrunconfig]
+@="VisualStudio.testrunconfig.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.testsettings]
+@="VisualStudio.testsettings.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.trx]
+@="VisualStudio.trx.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.vsmdi]
+@="VisualStudio.vsmdi.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\ShellFileAssociations\.wiq]
+@="VisualStudio.wiq.12.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation\SourceControl]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation\SourceControl\Checkin Policies]
+"Microsoft.TeamFoundation.Build.Controls"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\PrivateAssemblies\\Microsoft.TeamFoundation.Build.Controls.dll"
+"Microsoft.TeamFoundation.VersionControl.Controls"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\PrivateAssemblies\\Microsoft.TeamFoundation.VersionControl.Controls.dll"
+"StanPolicy"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Team Tools\\Static Analysis Tools\\StanPolicy.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation\SourceControl\DiffTools]
+"FallBackExe"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\\\vsDiffMerge.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation\SourceControl\DiffTools\.*\Compare]
+"Arguments"=""
+"Command"="Microsoft.VisualStudio.TeamFoundation.VersionControl, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"Type"="Microsoft.VisualStudio.TeamFoundation.VersionControl.DiffMerge.DifferenceProvider"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TeamFoundation\SourceControl\DiffTools\.*\Merge]
+"Arguments"=""
+"Command"="Microsoft.VisualStudio.TeamFoundation.VersionControl, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"Type"="Microsoft.VisualStudio.TeamFoundation.VersionControl.DiffMerge.MergeProvider"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\TextTemplating\DirectiveProcessors\T4VSHost]
+"Class"="Microsoft.Data.Entity.Design.VisualStudio.Directives.FallbackT4VSHostProcessor"
+"CodeBase"="C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\Microsoft.Data.Entity.Design.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\CompilerCore86]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\CompilerCore86\1033]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\Libraries\Core\ArchNeutral]
+"Version"="21005.01"
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Bld"="21005"
+"Rbld"=""
+"PaddedVersion"="21005"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\Libraries\Core\x86]
+"Version"="21005.01"
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Bld"="21005"
+"Rbld"=""
+"PaddedVersion"="21005"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\libraryDesktop\x64]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\libraryDesktop\x86]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\Libs]
+"VC_DEBUG_MCNCS_DAT"=""
+"DEFAULT_HTM_enu"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\Runtimes\x64]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+"Major"=dword:0000000c
+"Minor"=dword:00000000
+"Bld"=dword:0000520d
+"Rbld"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\VC\Runtimes\x86]
+"Version"="v12.0.21005.01"
+"Installed"=dword:00000001
+"Major"=dword:0000000c
+"Minor"=dword:00000000
+"Bld"=dword:0000520d
+"Rbld"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\WorkItemTracking\LinkExtensibility\Fixed in Changeset]
+"AssemblyName"="Microsoft.TeamFoundation.VersionControl.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"TypeName"="Microsoft.TeamFoundation.VersionControl.Controls.ControlLinkChangeset"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\WorkItemTracking\LinkExtensibility\Result Attachment]
+"AssemblyName"="Microsoft.TeamFoundation.TestManagement.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"TypeName"="Microsoft.TeamFoundation.TestManagement.Controls.ResultAttachmentLinkControl"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\WorkItemTracking\LinkExtensibility\Source Code File]
+"AssemblyName"="Microsoft.TeamFoundation.VersionControl.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"TypeName"="Microsoft.TeamFoundation.VersionControl.Controls.ControlLinkScc"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\WorkItemTracking\LinkExtensibility\Storyboard]
+"AssemblyName"="Microsoft.TeamFoundation.WorkItemTracking.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"TypeName"="Microsoft.TeamFoundation.WorkItemTracking.Controls.LinkDialogStoryboardLinkControl"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\12.0\WorkItemTracking\LinkExtensibility\Test Result]
+"AssemblyName"="Microsoft.TeamFoundation.TestManagement.Controls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+"TypeName"="Microsoft.TeamFoundation.TestManagement.Controls.TestResultLinkControl"
